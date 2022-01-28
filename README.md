@@ -47,3 +47,8 @@ cmd28.query_isochrones(t=1e10, Z=0.02)
 cmd28.query_isochrones(lgt=8, Z=np.linspace(0.01, 0.02, 3))
 cmd28.query_isochrones(t=np.logspace(6, 8, 3), Z=0.02)
 ```
+
+
+## Future plan
+I might add support to other isochrone models in the future, especially if I start to use them.
+
