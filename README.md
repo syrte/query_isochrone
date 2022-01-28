@@ -1,4 +1,5 @@
-# parsec_query
+# query_isochrone
+
 A handy script for querying the new parsec website of padova isochrones.
 
 Author: Zhaozhou Li (http://github.com/syrte)
