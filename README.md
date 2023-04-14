@@ -8,6 +8,8 @@ This code was written as a part of
 **Li, Shao, Li, et al.** 2020, ApJ, 901, 49,
 [*Modeling Unresolved Binaries of Open Clusters in the Color-Magnitude Diagram. I. Method and Application of NGC 3532*](https://ui.adsabs.harvard.edu/abs/2020ApJ...901...49L/abstract)
 
+If you used this code, a link to the repo and citation to the above paper will be appreicated.
+
 ## Features
   - Easy to use
   - Flexibility
