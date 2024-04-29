@@ -69,7 +69,7 @@ def isscalar(x):
 
 class ParsecQuery:
     def __init__(self,
-                 version='cmd_3.2',
+                 version='cmd_3.7',
                  website='http://stev.oapd.inaf.it/cgi-bin/',
                  form_data_example=None,
                  ):
