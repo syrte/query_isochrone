@@ -69,7 +69,7 @@ def isscalar(x):
 
 class ParsecQuery:
     def __init__(self,
-                 version='cmd_3.7',
+                 version='cmd_3.2',
                  website='http://stev.oapd.inaf.it/cgi-bin/',
                  form_data_example=None,
                  ):
@@ -116,7 +116,11 @@ class ParsecQuery:
             if msg:
                 raise ValueError("%s\nPlease check your inputs!" % msg)
             else:
-                raise ValueError('Failed!')
+                msg = "\n".join(p.xpath("//form//text()"))
+                if msg:
+                    raise ValueError("%s\n" % msg)
+                else:
+                    raise ValueError('Failed!')
 
         if ret_table:
             for i, line in enumerate(output.splitlines()):
