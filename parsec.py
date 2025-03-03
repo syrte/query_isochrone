@@ -1,6 +1,6 @@
 """
 A handy script for querying the new parsec website of padova isochrones.
-author: syrte (http://github.com/syrte)
+author: syrte (https://github.com/syrte)
 ## Features
   - Easy to use
   - Flexibility
@@ -70,7 +70,7 @@ def isscalar(x):
 class ParsecQuery:
     def __init__(self,
                  version='cmd_3.8',
-                 website='http://stev.oapd.inaf.it/cgi-bin/',
+                 website='https://stev.oapd.inaf.it/cgi-bin/',
                  form_data_example=None,
                  ):
         """
